@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1630998776 source:e:\我的坚果云\算法实现\第二季第一章\求一个二元组中最大递增子序列长度\main.c
+	<stdio.h>
+	<stdlib.h>
+
