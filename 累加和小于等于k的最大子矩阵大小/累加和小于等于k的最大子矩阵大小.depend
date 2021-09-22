@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1632307570 source:e:\我的坚果云\算法实现\第二季第三章\累加和小于等于k的最大子矩阵大小\main.c
+	<stdio.h>
+	<stdlib.h>
+
