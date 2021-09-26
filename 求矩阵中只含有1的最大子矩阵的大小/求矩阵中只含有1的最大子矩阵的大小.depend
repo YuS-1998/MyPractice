@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1632664641 source:e:\我的坚果云\算法实现\第二季第三章\求矩阵中只含有1的最大子矩阵的大小\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"maxSize.h"
+
+1632647466 e:\我的坚果云\算法实现\第二季第三章\求矩阵中只含有1的最大子矩阵的大小\maxsize.h
+	<stdbool.h>
+
+1632664878 source:e:\我的坚果云\算法实现\第二季第三章\求矩阵中只含有1的最大子矩阵的大小\maxsize.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"maxSize.h"
+
+1632646896 source:e:\我的坚果云\算法实现\第二季第三章\求矩阵中只含有1的最大子矩阵的大小\stack.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"maxSize.h"
+
