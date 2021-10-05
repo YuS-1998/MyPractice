@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1633432805 source:e:\我的坚果云\算法实现\第二季第三章\求完全二叉树的节点数\btnode.c
+	"BTNode.h"
+
+1633406507 e:\我的坚果云\算法实现\第二季第三章\求完全二叉树的节点数\btnode.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1633405900 source:e:\我的坚果云\算法实现\第二季第三章\求完全二叉树的节点数\main.c
+	<stdio.h>
+	<stdlib.h>
+	"BTNode.h"
+
