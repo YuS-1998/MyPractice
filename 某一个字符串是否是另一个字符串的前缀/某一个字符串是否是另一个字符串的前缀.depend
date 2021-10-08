@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1633574347 source:e:\我的坚果云\算法实现\第二季第三章\某一个字符串是否是另一个字符串的前缀\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Trie.h"
+
+1633573876 source:e:\我的坚果云\算法实现\第二季第三章\某一个字符串是否是另一个字符串的前缀\trie.c
+	"Trie.h"
+
+1633570599 e:\我的坚果云\算法实现\第二季第三章\某一个字符串是否是另一个字符串的前缀\trie.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+
