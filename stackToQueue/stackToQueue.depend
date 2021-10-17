@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1634439826 source:e:\我的坚果云\算法实现\第二季第四章\stacktoqueue\main.c
+	<stdio.h>
+	<stdlib.h>
+	"S2Q.h"
+
+1634440665 source:e:\我的坚果云\算法实现\第二季第四章\stacktoqueue\s2q.c
+	"S2Q.h"
+
+1634439416 e:\我的坚果云\算法实现\第二季第四章\stacktoqueue\s2q.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
