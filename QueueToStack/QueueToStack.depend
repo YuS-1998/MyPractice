@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1634457537 source:e:\我的坚果云\算法实现\第二季第四章\queuetostack\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Q2S.h"
+
+1634457467 source:e:\我的坚果云\算法实现\第二季第四章\queuetostack\q2s.c
+	"Q2S.h"
+
+1634457467 e:\我的坚果云\算法实现\第二季第四章\queuetostack\q2s.h
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	<stdbool.h>
+
