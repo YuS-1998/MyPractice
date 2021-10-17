@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1634461721 source:e:\我的坚果云\算法实现\第二季第四章\reversestack\main.c
+	<stdio.h>
+	<stdlib.h>
+	"stack.h"
+
+1634461686 source:e:\我的坚果云\算法实现\第二季第四章\reversestack\reverse.c
+	"stack.h"
+
+1634461786 e:\我的坚果云\算法实现\第二季第四章\reversestack\stack.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1634459070 source:e:\我的坚果云\算法实现\第二季第四章\reversestack\stack.c
+	"stack.h"
+
