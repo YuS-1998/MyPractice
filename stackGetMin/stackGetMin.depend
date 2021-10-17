@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1634437560 source:e:\我的坚果云\算法实现\第二季第四章\stackgetmin\main.c
+	<stdio.h>
+	<stdlib.h>
+	"GetMin.h"
+
+1634437848 source:e:\我的坚果云\算法实现\第二季第四章\stackgetmin\getmin.c
+	"GetMin.h"
+
+1634436793 e:\我的坚果云\算法实现\第二季第四章\stackgetmin\getmin.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
