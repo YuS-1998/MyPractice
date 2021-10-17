@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./common.css">
+    <style>
+        #banner{position: relative;}
+        #banner .banner_list{width: 100%; height: 434px; position: relative;}
+        #banner .banner_list li{width: 100%; height: 100%; background: center 0 no-repeat; position: absolute; left: 0; top: 0;
+            opacity: 0; z-index: 1;}
+        #banner .banner_list li.active{opacity: 1; z-index: 10;}
+        #banner .banner_list a{display: block; width: 100%; height: 100%;}
+        #banner .banner_btn{width: 100%; position: absolute; bottom: 19px; z-index: 20; font-size: 0; text-align: center;}
+        #banner .banner_btn li{display: inline-block; width: 12px; height: 12px; border: 2px solid white;
+            border-radius: 50%; box-sizing: border-box; margin: 0 6px; cursor: pointer;}
+        #banner .banner_btn li.active{background-color: white;}
+
+        #service{overflow: hidden; min-height: 407px;}
+        #service .service-list{text-align: center; margin-top: 34px;}
+        #service .service-list li{float: left; width: 250px; margin: 0 10px;}
+        #service .service-list div{width: 104px; height: 108px; margin: 0 auto;}
+        #service .service-list li:nth-of-type(1) div{background: url(./博文尚美/mini_icon.jpg);}
+        #service .service-list li:nth-of-type(2) div{background: url(./博文尚美/mini_icon.jpg);}
+        #service .service-list li:nth-of-type(3) div{background: url(./博文尚美/mini_icon.jpg);}
+        #service .service-list li:nth-of-type(4) div{background: url(./博文尚美/mini_icon.jpg);}
+        #service .service-list h3{font-size: 18px; color: #434343; line-height: 36px; margin-top: 25px;}
+        #service .service-list p{font-size: 14px; color: #6d6d6d; line-height: 22px;}
+
+        #case{background: #f8f8f8;}
+        #case .container{ min-height: 460px; overflow: hidden;}
+        #case .area_title{margin-top: 55px;} 
+        #case .area_title h2{color: #66c584;}
+        #case .case-list{margin-top: 28px;}
+        #case .case-list li{float: left; width: 340px; margin: 0 10px; }
+        #case .case-btn{width: 176px; height: 37px; background-color: #66c584; margin: 0 auto; border-radius: 25px;
+            line-height: 37px; text-align: center;  font-size: 14px; margin-top: 36px;}
+        #case .case-btn a{display: block; width: 100%; height: 100%; color: white;}
+
+        #news{min-height: 450px; overflow: hidden;}
+        #news .area_title{margin-top: 65px;}
+        #news dl{margin-top: 48px;}
+        #news dt{width: 234px;}
+        #news dd{width: 846px;}
+        #news .news-list{width: 100%;}
+        #news .news-list li{width: 50%; float: left; margin-bottom: 48px;}
+        #news .news-date{width: 71px; height: 70px; border-right: 1px solid #dcdcdc; text-align: center;}
+        #news .news-date i{color: #66c584; font-size: 39px; display: block; font-weight: bold;}
+        #news .news-date span{color: #999999; font-size: 30px; line-height: 36px;}
+        #news .news-text{width: 310px; margin-left: 20px;}
+        #news .news-text h3{font-size: 14px;}
+        #news .news-text h3 a{ color: #3f3f3f;}
+        #news .news-text p{color: #A4A4A4; font-size: 12px; line-height: 21px; margin-top: 17px;}
+    </style>
+</head>
+<body>
+    <div id="head" class="container">
+        <div class="head_logo l">
+            <img src="./博文尚美/logo.jpg" alt="博文尚美" title="博文尚美">
+        </div>
+        <ul class="head_menu r">
+            <li>
+                <a href="#">HOME</a>
+            </li>
+            <li>
+                <a href="#">ABOUT</a>
+            </li>
+            <li>
+                <a href="#">PROTFOLIO</a>
+            </li>
+            <li>
+                <a href="#">SERVICE</a>
+            </li>
+            <li>
+                <a href="#">NEWS</a>
+            </li>
+            <li>
+                <a href="#">CONTACT</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="banner" class="container-fluid">
+        <ul class="banner_list">
+            <li class="active" style="background-image: url(./博文尚美/banner.jpg);">
+                <a href="#"></a>
+            </li>
+            <li style="background-image: url(./博文尚美/banner.jpg);">
+                <a href="#"></a>
+            </li>
+            <li style="background-image: url(./博文尚美/banner.jpg);">
+                <a href="#"></a>
+            </li>
+            <li style="background-image: url(./博文尚美/banner.jpg);">
+                <a href="#"></a>
+            </li>
+        </ul>
+        <ol class="banner_btn">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+    </div>
+
+    <div id="service" class="container">
+        <div class="area_title">
+            <h2>服务范围</h2>
+            <p>our services</p>
+        </div>
+        <ul class="service-list">
+            <li>
+                <div></div>
+                <h3>1.WEB DESIGN</h3>
+                <p>企业品牌网站设计/手机网站制作
+                    <br>
+                    动画网站创意设计
+                </p>
+            </li>
+            <li>
+                <div></div>
+                <h3>1.WEB DESIGN</h3>
+                <p>企业品牌网站设计/手机网站制作
+                    <br>
+                    动画网站创意设计
+                </p>
+            </li>
+            <li>
+                <div></div>
+                <h3>1.WEB DESIGN</h3>
+                <p>企业品牌网站设计/手机网站制作
+                    <br>
+                    动画网站创意设计
+                </p>
+            </li>
+            <li>
+                <div></div>
+                <h3>1.WEB DESIGN</h3>
+                <p>企业品牌网站设计/手机网站制作
+                    <br>
+                    动画网站创意设计
+                </p>
+            </li>
+        </ul>
+    </div>
+
+    <div id="case" class="container-fluid">
+        <div class="container">
+            <div class="area_title">
+                <h2>{ 客户案例 }</h2>
+                <p>with the best professional technology, to design the best innovative web site</p>
+            </div>
+            <ul class="case-list clear">
+                <li>
+                    <a href="#"><img src="./博文尚美/gk.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="./博文尚美/gk.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="./博文尚美/gk.jpg" alt=""></a>
+                </li>
+            </ul>
+            <div class="case-btn">
+                <a href="#">view more</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="news" class="container">
+        <div class="area_title">
+            <h2>最新资讯</h2>
+            <p>the latest news</p>
+        </div>
+        <dl>
+            <dt class="l">
+                <img src="./博文尚美/news.jpg" alt="">
+            </dt>
+            <dd class="l">
+                <ul class="news-list">
+                    <li>
+                        <div class="news-date l">
+                            <i>09</i>
+                            <span>Jan</span>
+                        </div>
+                        <div class="news-text l">
+                            <h3><a href="#">网站排名进入前三的技巧说明</a></h3>
+                            <p>很多客户都会纳闷为什么自己的网站老师优化不到搜索引擎首页，更不用说进首页前三了。那么网站优……</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-date l">
+                            <i>09</i>
+                            <span>Jan</span>
+                        </div>
+                        <div class="news-text l">
+                            <h3><a href="#">网站排名进入前三的技巧说明</a></h3>
+                            <p>很多客户都会纳闷为什么自己的网站老师优化不到搜索引擎首页，更不用说进首页前三了。那么网站优……</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-date l">
+                            <i>09</i>
+                            <span>Jan</span>
+                        </div>
+                        <div class="news-text l">
+                            <h3><a href="#">网站排名进入前三的技巧说明</a></h3>
+                            <p>很多客户都会纳闷为什么自己的网站老师优化不到搜索引擎首页，更不用说进首页前三了。那么网站优……</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-date l">
+                            <i>09</i>
+                            <span>Jan</span>
+                        </div>
+                        <div class="news-text l">
+                            <h3><a href="#">网站排名进入前三的技巧说明</a></h3>
+                            <p>很多客户都会纳闷为什么自己的网站老师优化不到搜索引擎首页，更不用说进首页前三了。那么网站优……</p>
+                        </div>
+                    </li>
+                </ul>
+            </dd>
+        </dl>
+    </div>
+
+    <div id="foot" class="container-fluid">
+        <div class="container">
+            <p class="l">
+                Copyright 2006-2014 Bowenshangmei Culture All Rights Reserved
+            </p>
+            <div class="r">
+                <a href="#">HOME</a> | <a href="#">ABOUT</a> | <a href="#">PORTFOLIO</a> | <a href="#">CONTACT</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
