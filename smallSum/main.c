@@ -14,7 +14,7 @@ int main()
     return 0;
 }
 
-//这里在实现时反向思考，计算某个元素右边所有比它大的元素的个数
+//这里在实现时反向思考，计算某个元素右边所有比它大的元素的和
 int process(int * Arr,int L, int R)
 {
     if(L == R)
