@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1636254070 source:e:\我的坚果云\算法实现\算法课\heap\heap.c
+	"heap.h"
+
+1636251990 e:\我的坚果云\算法实现\算法课\heap\heap.h
+	<stdio.h>
+	<stdlib.h>
+
+1636253969 source:e:\我的坚果云\算法实现\算法课\heap\main.c
+	<stdio.h>
+	<stdlib.h>
+	"heap.h"
+
