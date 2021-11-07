@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1635067446 source:e:\我的坚果云\算法实现\算法课\dichotomy\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
