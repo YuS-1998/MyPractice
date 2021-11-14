@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1636290419 source:e:\我的坚果云\算法实现\算法课\sort\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Sort.h"
+
+1635732138 source:e:\我的坚果云\算法实现\算法课\sort\easysort.c
+	"Sort.h"
+
+1636857565 e:\我的坚果云\算法实现\算法课\sort\sort.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+
+1635728818 source:e:\我的坚果云\算法实现\算法课\sort\mergesort.c
+	"Sort.h"
+
+1635732890 source:e:\我的坚果云\算法实现\算法课\sort\quicksort.c
+	"Sort.h"
+
+1636283965 source:e:\我的坚果云\算法实现\算法课\sort\heapsort.c
+	"Sort.h"
+
+1636290621 source:e:\我的坚果云\算法实现\算法课\sort\radixsort.c
+	"Sort.h"
+
