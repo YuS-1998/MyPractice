@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1637499851 source:e:\我的坚果云\算法实现\算法课\palindrome\list.cpp
+	"list.h"
+
+1637499851 e:\我的坚果云\算法实现\算法课\palindrome\list.h
+	<iostream>
+	<malloc.h>
+
+1637499445 source:e:\我的坚果云\算法实现\算法课\palindrome\main.cpp
+	<iostream>
+	<stack>
+	<list>
+	"list.h"
+
