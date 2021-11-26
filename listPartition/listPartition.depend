@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1637892467 source:e:\我的坚果云\算法实现\算法课\listpartition\list.cpp
+	"list.h"
+
+1637889546 e:\我的坚果云\算法实现\算法课\listpartition\list.h
+	<iostream>
+	<malloc.h>
+
+1637894546 source:e:\我的坚果云\算法实现\算法课\listpartition\main.cpp
+	<iostream>
+	"list.h"
+
