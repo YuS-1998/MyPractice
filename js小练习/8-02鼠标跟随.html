@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{width: 50px; height: 50px; position: fixed; left: 0; top: 0;}
+    </style>
+</head>
+<body>
+    <img src="./img/780.jpg" alt="">
+    <script>
+        //事件：事件目标.on事件类型 = 函数（要执行的事件）
+        document.onmousemove = function(e){//e是函数的形参，可以拿到此时事件对象的信息
+            //1、拿到鼠标移动的坐标
+            var x = e.clientX//offsetX:相对于事件目标的坐标；clientX：相对于可视窗口的坐标；pageX：相对于整个页面的坐标
+            var y = e.clientY
+            
+            //2、把坐标赋值给img的属性
+            var imgBox = document.querySelector('img')
+            imgBox.style.left = x + 5 + 'px'
+            imgBox.style.top = y + 5 + 'px'
+        }
+    </script>
+</body>
+</html>
