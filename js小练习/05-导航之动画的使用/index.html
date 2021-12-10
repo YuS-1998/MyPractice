@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .slidebar{
+            height: 50px;
+            width: 150px;
+            position: absolute;
+            top: 500px;
+            right: -100px;
+        }
+        span{
+            height: 50px;
+            width: 50px;
+            display: block;
+            background-color: pink;
+            /* position: absolute;
+            top: 0;
+            left: 0; */
+            text-align: center;
+            font-size: 24px;
+            line-height: 50px;
+        }
+        .con{
+            height: 50px;
+            width: 150px;
+            background-color: plum;
+            text-align: left;
+            line-height: 50px;
+            font-size: 24px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: -1;
+        }
+        .test{
+            width: 300px;
+            height: 300px;
+            background-color: blanchedalmond;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+    </style>
+    <script src="./animate.js"></script>
+</head>
+<body>
+    <div class="slidebar">
+        <span>⬅</span>
+        <div class="con">导航</div>
+    </div>
+    <div class="test"></div>
+
+
+    <script>
+        //1、获取元素
+        var slidebar = document.querySelector('.slidebar')
+        var con = document.querySelector('.con')
+
+        //2、给slidebar绑定事件
+        slidebar.addEventListener('mouseenter',function(){
+            animate(con,-100,function(){
+                slidebar.children[0].innerHTML = '→';
+            })
+        })
+        slidebar.addEventListener('mouseleave',function(){
+            animate(con,0,function(){
+                slidebar.children[0].innerHTML = '⬅';
+            })
+        })
+
+        var test = document.querySelector('.test')
+        test.addEventListener('click',function(){
+            animate(test,300,function(){
+                test.style.backgroundColor = 'pink'
+                test.style.width = '200px'
+            })
+        })
+    </script>
+</body>
+</html>
